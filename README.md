@@ -20,6 +20,7 @@
 
 PHP `com_create_guid` implementation for systems that do not support it
 
+This is a copy of this example create by the team from Microsoft, and all credit goes to them: https://github.com/MicrosoftTranslator/Text-Translation-API-V3-PHP/blob/master/Translate.php#L26 
 
 ## License
 
