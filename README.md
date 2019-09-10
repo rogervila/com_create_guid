@@ -6,8 +6,8 @@
 [![Build Status](https://travis-ci.org/rogervila/com_create_guid.svg?branch=master)](https://travis-ci.org/rogervila/com_create_guid)
 [![Build status](https://ci.appveyor.com/api/projects/status/gwnwa37033if9e6a/branch/master?svg=true)](https://ci.appveyor.com/project/roger-vila/com-create-guid/branch/master)
 [![StyleCI](https://github.styleci.io/repos/207313435/shield?branch=master)](https://github.styleci.io/repos/207313435)
-[![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=com_create_guid&metric=alert_status)](https://sonarcloud.io/dashboard?id=com_create_guid)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com_create_guid&metric=coverage)](https://sonarcloud.io/dashboard?id=com_create_guid)
+[![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=rogervila_com_create_guid&metric=alert_status)](https://sonarcloud.io/dashboard?id=rogervila_com_create_guid)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rogervila_com_create_guid&metric=coverage)](https://sonarcloud.io/dashboard?id=rogervila_com_create_guid)
 
 [![Latest Stable Version](https://poser.pugx.org/rogervila/com_create_guid/v/stable)](https://packagist.org/packages/rogervila/com_create_guid)
 [![Total Downloads](https://poser.pugx.org/rogervila/com_create_guid/downloads)](https://packagist.org/packages/rogervila/com_create_guid)
