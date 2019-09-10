@@ -19,9 +19,8 @@ script:
   - vendor/bin/phpunit
   #- sonar-scanner -Dsonar.projectKey=provably-fair -Dsonar.sources=. -Dsonar.exclusions='index.php, vendor/**, tests/**' -Dsonar.php.tests.reportPath=junit-logfile.xml -Dsonar.php.coverage.reportPaths=clover.xml
 
-#addons:
-#  sonarcloud:
-#    organization: "rogervila-github"
-#    token:
-#      secure: "GxFwORpZKa3gbAch+wxbR6xJrApYFhzC4Vp/yvijD5OyucU0dsYCpu4afaAMyUAccRV8jJp0iB3EVrxWcSKpGhJobd861SNDGN3jIKFDH3OxKyAcb7fUO4l1AdEzxLyu151AfJHmkU9vCbteSyYLpYGnUdU+yPApz9+2QhKVImsIycQtIsWG8ULtmZwhlHftK/qdiGWC55k28P5sqA+GLUEnI8RGiX2PlJ+Fc68jF24hAkC1W7fzMTA3q14zKT63SR0fOouO9v6HFu0VNj1yZQl4gOfHVw4A5BstmzYMQ62/KY8S0I5h3zsPF9Uud0zjXa/3iji1+KQSvZY8sRY9IkTGA0pTMviDr/djeDAI4KLqXNUonGIotWCb+muNxdIWvzmHoOs79zNLPskPLk3JEDbsB931aBupr8pnp0ovotLLSRhyuboke+k57T9K5T7ojCCa14vmHbcioZF+6lGlMulkUMCM4AHxJTve/rk/37UTomy/Z7F7n+eOmXJGKUzULs5evIE4bl7l5/qMbYQdS7GMWKRiFWhhFkRR7KY9DIjlXISb+r7bEPkT2RoZBEl13Qt95/4CBckTred1pYimhsf9XumRxEjxm24+ZHdu5moTgWcHM9SOjCHTFoUIJpfSJWhr4xxqiBuBozGWaU9bh+JywZoRA++///NE08AIpLI="
-      
+addons:
+  sonarcloud:
+    organization: "rogervila-github"
+    token:
+      secure: "Pz+Xgd88uoszQKv/EwNxJD2Mn3eWjLrTQAUlnwljvIS19e8mlAEUCkpdXto/gojZ4+pudJNJ/k1FZcE+h99dOShaukdDlczh5iJdEsPIqLvbfybTvY8BmWt3wMki0dVm0HicnHTJFYpCUFh+XFXQkYC9JIbL6+FK7nT15yZ47rWAscBgw5jRxT9RbXgFZv+MVjnYwbCghnmiN1BL+rRr4uKBoD1q93vdzixv/tRGThc2zEJuMLo5AjD+JF03rn1/ylrXOOWNfMtChrJzygBLFZyH8+dgEA6kklHCDjySxzbNO5NjelXqpKmikREGlaj/Yih4JnBBPRTRVb/cuzG3JjVCqN6nhBra6J++7PDeK+fw3MkatyFiBZv+C1CC/haaiDSdCe19Qek3S+/+NHjMFOrFsog2+CZmXe994tjSayCYrztP5T6fYhrkvPWrBgjmMwKUTQjx9zs+jWCkmAhvZUGr42WvVPqDiCVLpE7Eo2t5KkjMTydSabcYQJbzucG+lq4WYxHZ9mMW3jrFK5zGML6ryIBOldmdAXK/UgL9QXE3hH3uGtlsgL2ws2upAfs2OqiVJ7iSSKTIwBUoTo7HU03qEohI3bms3z2rZYB8yTbEOv8QizISJS5OMUI/afnARJ76PuhGg/WRf92rLjVKYpm9qhEQ1AyUtjBUkUTJCN4="
