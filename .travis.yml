@@ -13,6 +13,7 @@ cache:
 before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
+  - php -r 'echo "native com_create_guid() exists:"; echo function_exists("com_create_guid"); echo PHP_EOL;'
 
 script:
   - vendor/bin/phpunit
