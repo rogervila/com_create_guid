@@ -13,9 +13,6 @@
 [![Total Downloads](https://poser.pugx.org/rogervila/com_create_guid/downloads)](https://packagist.org/packages/rogervila/com_create_guid)
 [![License](https://poser.pugx.org/rogervila/com_create_guid/license)](https://packagist.org/packages/rogervila/com_create_guid)
 
-
-# com_create_guid
-
 ## About
 
 PHP `com_create_guid()` implementation for systems that do not support it
