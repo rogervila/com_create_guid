@@ -40,6 +40,7 @@ before_test:
     - cd C:\projects\app
     - php C:\tools\composer.phar update --optimize-autoloader --no-interaction --no-progress --prefer-stable --no-ansi
     - php C:\tools\composer.phar info -D | sort
+    - php -r 'echo "native com_create_guid() exists:"; echo function_exists("com_create_guid"); echo PHP_EOL;'
 
 test_script:
     - cd C:\projects\app
