@@ -1,0 +1,26 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+  - 7.3
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev
+  - php -r 'echo "native com_create_guid() exists:"; echo function_exists("com_create_guid"); echo PHP_EOL;'
+
+script:
+  - vendor/bin/phpunit
+  - sonar-scanner
+
+addons:
+  sonarcloud:
+    organization: "rogervila-github"
+    token:
+      secure: "Pz+Xgd88uoszQKv/EwNxJD2Mn3eWjLrTQAUlnwljvIS19e8mlAEUCkpdXto/gojZ4+pudJNJ/k1FZcE+h99dOShaukdDlczh5iJdEsPIqLvbfybTvY8BmWt3wMki0dVm0HicnHTJFYpCUFh+XFXQkYC9JIbL6+FK7nT15yZ47rWAscBgw5jRxT9RbXgFZv+MVjnYwbCghnmiN1BL+rRr4uKBoD1q93vdzixv/tRGThc2zEJuMLo5AjD+JF03rn1/ylrXOOWNfMtChrJzygBLFZyH8+dgEA6kklHCDjySxzbNO5NjelXqpKmikREGlaj/Yih4JnBBPRTRVb/cuzG3JjVCqN6nhBra6J++7PDeK+fw3MkatyFiBZv+C1CC/haaiDSdCe19Qek3S+/+NHjMFOrFsog2+CZmXe994tjSayCYrztP5T6fYhrkvPWrBgjmMwKUTQjx9zs+jWCkmAhvZUGr42WvVPqDiCVLpE7Eo2t5KkjMTydSabcYQJbzucG+lq4WYxHZ9mMW3jrFK5zGML6ryIBOldmdAXK/UgL9QXE3hH3uGtlsgL2ws2upAfs2OqiVJ7iSSKTIwBUoTo7HU03qEohI3bms3z2rZYB8yTbEOv8QizISJS5OMUI/afnARJ76PuhGg/WRf92rLjVKYpm9qhEQ1AyUtjBUkUTJCN4="

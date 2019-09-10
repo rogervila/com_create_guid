@@ -1,0 +1,38 @@
+{
+  "name": "rogervila/com_create_guid",
+  "description": "PHP com_create_guid implementation for systems that do not support it",
+  "keywords": [
+    "com_create_guid"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roger Vilà",
+      "email": "rogervila@me.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0|^7.0|^8.0"
+  },
+  "autoload": {
+    "files": [
+      "src/com_create_guid.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
