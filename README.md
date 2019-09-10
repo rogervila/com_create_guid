@@ -1,4 +1,4 @@
-# com_create_guid
+# `com_create_guid()`
 
 
 <p align="center"><img width="150" src="https://image.flaticon.com/icons/svg/884/884539.svg" alt="com_create_guid" /></p>
@@ -18,12 +18,12 @@
 
 ## About
 
-PHP `com_create_guid` implementation for systems that do not support it
+PHP `com_create_guid()` implementation for systems that do not support it
 
-This is a copy of this example create by the team from Microsoft, and all credit goes to them: https://github.com/MicrosoftTranslator/Text-Translation-API-V3-PHP/blob/master/Translate.php#L26 
+This is a copy of this example created by Microsoft, and all credit goes to the team that implemented it: https://github.com/MicrosoftTranslator/Text-Translation-API-V3-PHP/blob/master/Translate.php#L26 
 
 ## License
 
-Provably Fair is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+`com_create_guid()` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
